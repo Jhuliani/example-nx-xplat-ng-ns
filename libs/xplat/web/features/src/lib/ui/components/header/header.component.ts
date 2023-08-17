@@ -6,4 +6,8 @@ import { HeaderBaseComponent } from '@example-nx-xplat-ng-ns/xplat/features';
   selector: 'example-xplat-header',
   templateUrl: 'header.component.html',
 })
-export class HeaderComponent extends HeaderBaseComponent {}
+export class HeaderComponent extends HeaderBaseComponent {
+
+
+
+}
