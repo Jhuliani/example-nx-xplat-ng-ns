@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "npx rimraf hooks node_modules package-lock.json yarn.lock && yarn",
-    "clean.all": "npm run clean && nx run-many --target=clean --all"
+    "clean.all": "yarn clean && nx run-many --target=clean --all"
   },
   "private": true,
   "devDependencies": {

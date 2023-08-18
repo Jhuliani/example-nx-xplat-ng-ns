@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterExtensions } from '@nativescript/angular';
 
 import { HeaderBaseComponent } from '@example-nx-xplat-ng-ns/xplat/features';
@@ -9,7 +9,5 @@ import { HeaderBaseComponent } from '@example-nx-xplat-ng-ns/xplat/features';
   templateUrl: 'header.component.html'
 })
 export class HeaderComponent extends HeaderBaseComponent {
-  constructor(private router: RouterExtensions) {
-    super();
-  }
+  router = inject(RouterExtensions);
 }

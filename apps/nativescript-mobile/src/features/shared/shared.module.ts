@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 
 // xplat
-import { UIModule } from '@example-nx-xplat-ng-ns/xplat/nativescript/features';
+import { TestfeatureModule, UIModule } from '@example-nx-xplat-ng-ns/xplat/nativescript/features';
 
-const MODULES = [UIModule];
+const MODULES = [UIModule, TestfeatureModule];
 
 @NgModule({
   imports: [...MODULES],
